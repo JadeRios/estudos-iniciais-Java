@@ -26,6 +26,14 @@ public class main {
         quadrilatero.calcularArea(5);
         quadrilatero.calcularArea(5,7);
         quadrilatero.calcularArea(4, 6, 5);
+
+        System.out.println("Exercício return");
+        double areaQuadrado = areaQuadrilatero.area(5);
+        System.out.println("A área do quadrado é igual a " + areaQuadrado);
+        double areaRetangulo = areaQuadrilatero.area(5, 7);
+        System.out.println("A área do retangulo é igual a " + areaRetangulo);
+        double areaTrapezio = areaQuadrilatero.area(4,6,5);
+        System.out.println("A área do retangulo é igual a " + areaTrapezio);
     }
 
 
