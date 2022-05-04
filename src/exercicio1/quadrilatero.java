@@ -4,7 +4,7 @@ public class quadrilatero {
 
 
     public static void calcularArea(double lado) {
-        double areaQuadrado = lado * 2;
+        double areaQuadrado = lado * lado;
         System.out.println("A área do quadrado é igual a " + areaQuadrado);
     }
 
